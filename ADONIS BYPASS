@@ -55,3 +55,4 @@ local o; o = hookfunction(getrenv().debug.info, newcclosure(function(...)
 end))
 
 setthreadidentity(7)
+end
